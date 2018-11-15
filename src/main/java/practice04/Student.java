@@ -22,6 +22,6 @@ public class Student extends Person {
 
     public String introduce(){
         //I am a Student. I am at Class 2.
-        return super.introduce().trim() + String.format("I am a Student. I am at Class %d.", this.klass);
+        return super.introduce() +" "+ String.format("I am a Student. I am at Class %d.", this.klass);
     }
 }
